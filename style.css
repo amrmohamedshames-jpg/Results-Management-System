@@ -1,0 +1,103 @@
+
+/* General Style */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3f6fb;
+    font-family: Arial, sans-serif;
+    color: #263445;
+    direction: rtl;
+    padding: 20px 0;
+}
+
+/* Main Heading */
+h1 {
+    color: #174b78;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 16px;
+    background: #ffffff;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08) !important;
+}
+
+.card h3 {
+    color: #174b78;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* Inputs */
+.form-control {
+    border-radius: 9px;
+    padding: 11px;
+    border: 1px solid #d5dce5;
+}
+
+.form-control:focus {
+    border-color: #3984bd;
+    box-shadow: 0 0 0 3px rgba(57, 132, 189, 0.12);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 9px;
+    padding: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: #246ca5;
+    border-color: #246ca5;
+}
+
+.btn-primary:hover {
+    background: #174b78;
+}
+
+.btn-success {
+    background: #198754;
+}
+
+/* Error Box */
+#errorBox {
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Student List */
+#studentsListDisplay {
+    line-height: 2;
+}
+
+/* Final Report */
+#finalReport {
+    line-height: 2;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .card {
+        padding: 18px !important;
+    }
+}
